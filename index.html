@@ -25,7 +25,8 @@
     <nav
       class="
         top-0
-        absolute test
+        absolute
+        test
         z-50
         w-full
         flex flex-wrap
@@ -209,12 +210,14 @@
           items-center
           justify-center
         "
-        style="min-height: 75vh;"
+        style="min-height: 75vh"
       >
         <!-- Background Image -->
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style="background: url(https://images.unsplash.com/photo-1634206090782-227f8c84581b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80)"
+          style="
+            background: url(https://images.unsplash.com/photo-1634206090782-227f8c84581b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80);
+          "
         >
           <!-- Overlay -->
           <span
@@ -233,7 +236,11 @@
                 >
                   Welcome your epiphany.
                 </h1>
-                <p class="mt-4 text-lg text-gray-300">
+                <p
+                  class="mt-4 text-lg text-gray-300"
+                  data-aos="fade-right"
+                  data-aos-delay="1000"
+                >
                   Lorem ipsum dolor sit. Eum totam aspernatur aliquam
                   praesentium aperiam magni, dignissimos, atque incidunt fuga
                   nulla distinctio eligendi enim placeat nesciunt, soluta maxime
@@ -255,7 +262,7 @@
             pointer-events-none
             overflow-hidden
           "
-          style="height: 70px; transform: translateZ(0);"
+          style="height: 70px; transform: translateZ(0)"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -278,7 +285,11 @@
       <!-- Services Section -->
       <section class="pb-20 bg-gray-300 -mt-24">
         <!-- 3 Card Section -->
-        <div class="container mx-auto px-4">
+        <div
+          class="container mx-auto px-4"
+          data-aos="fade-right"
+          data-aos-delay="1200"
+        >
           <div class="flex flex-wrap">
             <!-- Card -->
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -325,7 +336,11 @@
               </div>
             </div>
             <!-- Card -->
-            <div class="w-full md:w-4/12 px-4 text-center">
+            <div
+              class="w-full md:w-4/12 px-4 text-center"
+              data-aos="fade-up"
+              data-aos-delay="1400"
+            >
               <div
                 class="
                   relative
@@ -370,7 +385,11 @@
               </div>
             </div>
             <!-- Card -->
-            <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div
+              class="pt-6 w-full md:w-4/12 px-4 text-center"
+              data-aos="fade-left"
+              data-aos-delay="1600"
+            >
               <div
                 class="
                   relative
@@ -419,7 +438,10 @@
           <!-- Text Box and Card Container -->
           <div class="flex flex-wrap items-center mt-32">
             <!-- Text Box Container -->
-            <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+            <div
+              class="w-full md:w-5/12 px-4 mr-auto ml-auto"
+              data-aos="zoom-in-right"
+            >
               <!-- Text Box -->
               <div
                 class="
@@ -478,7 +500,11 @@
             </div>
 
             <!-- Image Cap & Text Card -->
-            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            <div
+              class="w-full md:w-4/12 px-4 mr-auto ml-auto"
+              data-aos="flip-left"
+              data-aos-delay="1000"
+            >
               <div
                 class="
                   relative
@@ -506,7 +532,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 583 95"
                     class="absolute left-0 w-full block"
-                    style="height: 95px; top: -94px;"
+                    style="height: 95px; top: -94px"
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
@@ -544,7 +570,7 @@
             overflow-hidden
             -mt-20
           "
-          style="height: 80px; transform: translateZ(0);"
+          style="height: 80px; transform: translateZ(0)"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -564,7 +590,11 @@
         <!-- Section Container -->
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div
+              class="w-full md:w-4/12 ml-auto mr-auto px-4"
+              data-aos="flip-right"
+              data-aos-delay="1000"
+            >
               <!-- Image -->
               <img
                 alt="..."
@@ -573,7 +603,10 @@
               />
             </div>
             <!-- Text Box Container-->
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div
+              class="w-full md:w-5/12 ml-auto mr-auto px-4"
+              data-aos="zoom-in-left"
+            >
               <div class="md:pr-12">
                 <div
                   class="
@@ -709,14 +742,17 @@
           <!-- Flex Row Container -->
           <div class="flex flex-wrap">
             <!-- Item -->
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="fade-in"
+            >
               <div class="px-6">
                 <!-- Image -->
                 <img
                   alt="..."
                   src="https://randomuser.me/api/portraits/men/64.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Ryan Thompson</h5>
@@ -781,14 +817,18 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="fade-in"
+              data-aos-delay="400"
+            >
               <div class="px-6">
                 <!-- Image -->
                 <img
                   alt="..."
                   src="https://randomuser.me/api/portraits/men/4.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Abul Hadi</h5>
@@ -836,14 +876,18 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="fade-in"
+              data-aos-delay="600"
+            >
               <div class="px-6">
                 <!-- Image -->
                 <img
                   alt="..."
                   src="https://randomuser.me/api/portraits/men/32.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Alexa Smith</h5>
@@ -908,14 +952,18 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="fade-in"
+              data-aos-delay="800"
+            >
               <div class="px-6">
                 <!-- Image -->
                 <img
                   alt="..."
                   src="https://randomuser.me/api/portraits/men/51.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Abdur Rahman</h5>
@@ -1016,7 +1064,7 @@
             overflow-hidden
             -mt-20
           "
-          style="height: 80px; transform: translateZ(0);"
+          style="height: 80px; transform: translateZ(0)"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -1049,7 +1097,11 @@
           <!-- Flex Row Container -->
           <div class="flex flex-wrap mt-12 justify-center">
             <!-- Item -->
-            <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="w-full lg:w-3/12 px-4 text-center"
+              data-aos="fade-in"
+              data-aos-delay="600"
+            >
               <div
                 class="
                   text-gray-900
@@ -1069,7 +1121,7 @@
               </div>
               <!-- Text Box -->
               <h5 class="text-xl mt-5 font-semibold text-white">
-                Excelent Services
+                Excellent Services
               </h5>
               <p class="mt-2 mb-4 text-gray-500">
                 Some quick example text to build on the card title and make up
@@ -1077,7 +1129,11 @@
               </p>
             </div>
             <!-- Item -->
-            <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="w-full lg:w-3/12 px-4 text-center"
+              data-aos="fade-in"
+              data-aos-delay="400"
+            >
               <div
                 class="
                   text-gray-900
@@ -1105,7 +1161,7 @@
               </p>
             </div>
             <!-- Item -->
-            <div class="w-full lg:w-3/12 px-4 text-center">
+            <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in">
               <div
                 class="
                   text-gray-900
@@ -1185,7 +1241,7 @@
                         w-full
                       "
                       placeholder="Full Name"
-                      style="transition: all 0.15s ease 0s;"
+                      style="transition: all 0.15s ease 0s"
                     />
                   </div>
                   <!-- Email -->
@@ -1216,7 +1272,7 @@
                         w-full
                       "
                       placeholder="Email"
-                      style="transition: all 0.15s ease 0s;"
+                      style="transition: all 0.15s ease 0s"
                     />
                   </div>
                   <!-- Message -->
@@ -1270,7 +1326,7 @@
                         mb-1
                       "
                       type="button"
-                      style="transition: all 0.15s ease 0s;"
+                      style="transition: all 0.15s ease 0s"
                     >
                       Send Message
                     </button>
@@ -1299,7 +1355,7 @@
           overflow-hidden
           -mt-20
         "
-        style="height: 80px; transform: translateZ(0);"
+        style="height: 80px; transform: translateZ(0)"
       >
         <svg
           class="absolute bottom-0 overflow-hidden"
@@ -1591,7 +1647,12 @@
   <!-- AOS.js -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      delay: 200,
+      duration: 1500,
+      once: false,
+      mirror: false,
+    });
   </script>
   <!-- Navigation Script -->
   <script>
